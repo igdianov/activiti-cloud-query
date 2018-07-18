@@ -35,8 +35,8 @@ querypostgresql:
    postgresPassword: query
 
 image:
-  repository: draft
-  tag: dev
+  repository: 10.63.250.89:5000/ryandawsonuk/activiti-cloud-query
+  tag: 7.0.32
   pullPolicy: IfNotPresent
 service:
   name: query
